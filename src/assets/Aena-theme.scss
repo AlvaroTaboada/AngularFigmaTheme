@@ -137,7 +137,7 @@ $md-primary-blue-dark-70: (
   ),
 );
 
-$md-primary-blue-dar60: (
+$md-primary-blue-dark-60: (
   50: #eeeff0,
   100: #d5d7d9,
   200: #b9bcc0,
@@ -2127,16 +2127,138 @@ $md-semantic-error-100: (
   ),
 );
 
-$aena-palette-primary: mat-palette($aena-primary);
-$aena-palette-accent: mat-palette($aena-accent-color);
-$aena-palette-warn: mat-palette($aena-warn-color);
+$primary-blue-dark-100: mat-palette($md-primary-blue-dark-100);
+$primary-blue-dark-90: mat-palette($md-primary-blue-dark-90);
+$primary-blue-dark-80: mat-palette($md-primary-blue-dark-80);
+$primary-blue-dark-70: mat-palette($md-primary-blue-dark-70);
+$primary-blue-dark-60: mat-palette($md-primary-blue-dark-60);
+$primary-blue-dark-50: mat-palette($md-primary-blue-dark-50);
+$primary-blue-dark-40: mat-palette($md-primary-blue-dark-40);
+$primary-blue-dark-30: mat-palette($md-primary-blue-dark-30);
+$primary-blue-dark-20: mat-palette($md-primary-blue-dark-20);
+$primary-blue-dark-10: mat-palette($md-primary-blue-dark-10);
+$primary-blue-dark-5: mat-palette($md-primary-blue-dark-5);
+$primary-blue-light-100: mat-palette($md-primary-blue-light-100);
+$primary-green-100: mat-palette($md-primary-green-100);
+$primary-green-100-hover: mat-palette($md-primary-green-100-hover);
+$complementary-yellow: mat-palette($md-complementary-yellow);
+$complementary-orange: mat-palette($md-complementary-orange);
+$complementary-magenta: mat-palette($md-complementary-magenta);
+$complementary-purple: mat-palette($md-complementary-purple);
+$complementary-blue: mat-palette($md-complementary-blue);
+$complementary-gray: mat-palette($md-complementary-gray);
+$neutrals-gray-10: mat-palette($md-neutrals-gray-10);
+$neutrals-gray-50: mat-palette($md-neutrals-gray-50);
+$neutrals-gray-80: mat-palette($md-neutrals-gray-80);
+$neutrals-gray-90: mat-palette($md-neutrals-gray-90);
+$neutrals-gray-100: mat-palette($md-neutrals-gray-100);
+$semantic-success-10: mat-palette($md-semantic-success-10);
+$semantic-success-20: mat-palette($md-semantic-success-20);
+$semantic-success-30: mat-palette($md-semantic-success-30);
+$semantic-success-40: mat-palette($md-semantic-success-40);
+$semantic-success-50: mat-palette($md-semantic-success-50);
+$semantic-success-60: mat-palette($md-semantic-success-60);
+$semantic-success-70: mat-palette($md-semantic-success-70);
+$semantic-success-80: mat-palette($md-semantic-success-80);
+$semantic-success-90: mat-palette($md-semantic-success-90);
+$semantic-success-100: mat-palette($md-semantic-success-100);
+$semantic-warning-10: mat-palette($md-semantic-warning-10);
+$semantic-warning-20: mat-palette($md-semantic-warning-20);
+$semantic-warning-30: mat-palette($md-semantic-warning-30);
+$semantic-warning-40: mat-palette($md-semantic-warning-40);
+$semantic-warning-50: mat-palette($md-semantic-warning-50);
+$semantic-warning-60: mat-palette($md-semantic-warning-60);
+$semantic-warning-70: mat-palette($md-semantic-warning-70);
+$semantic-warning-80: mat-palette($md-semantic-warning-80);
+$semantic-warning-90: mat-palette($md-semantic-warning-90);
+$semantic-warning-100: mat-palette($md-semantic-warning-100);
+$semantic-info-10: mat-palette($md-semantic-info-10);
+$semantic-info-20: mat-palette($md-semantic-info-20);
+$semantic-info-30: mat-palette($md-semantic-info-30);
+$semantic-info-40: mat-palette($md-semantic-info-40);
+$semantic-info-50: mat-palette($md-semantic-info-50);
+$semantic-info-60: mat-palette($md-semantic-info-60);
+$semantic-info-70: mat-palette($md-semantic-info-70);
+$semantic-info-80: mat-palette($md-semantic-info-80);
+$semantic-info-90: mat-palette($md-semantic-info-90);
+$semantic-info-100: mat-palette($md-semantic-info-100);
+$semantic-error-10: mat-palette($md-semantic-error-10);
+$semantic-error-20: mat-palette($md-semantic-error-20);
+$semantic-error-30: mat-palette($md-semantic-error-30);
+$semantic-error-40: mat-palette($md-semantic-error-40);
+$semantic-error-60: mat-palette($md-semantic-error-60);
+$semantic-error-70: mat-palette($md-semantic-error-70);
+$semantic-error-80: mat-palette($md-semantic-error-80);
+$semantic-error-90: mat-palette($md-semantic-error-90);
+$semantic-error-100: mat-palette($md-semantic-error-100);
 
 $aena-theme: mat-light-theme(
   (
     color: (
-      primary: $aena-palette-primary,
-      accent: $aena-palette-accent,
-      warn: $aena-palette-warn,
+      primary-blue-dark-100: $primary-blue-dark-100,
+      primary-blue-dark-90: $primary-blue-dark-90,
+      primary-blue-dark-80: $primary-blue-dark-80,
+      primary-blue-dark-70: $primary-blue-dark-70,
+      primary-blue-dark-60: $primary-blue-dark-60,
+      primary-blue-dark-50: $primary-blue-dark-50,
+      primary-blue-dark-40: $primary-blue-dark-40,
+      primary-blue-dark-30: $primary-blue-dark-30,
+      primary-blue-dark-20: $primary-blue-dark-20,
+      primary-blue-dark-10: $primary-blue-dark-10,
+      primary-blue-dark-5: $primary-blue-dark-5,
+      primary-blue-light-100: $primary-blue-light-100,
+      primary-green-100: $primary-green-100,
+      primary-green-100-hover: $primary-green-100-hover,
+      complementary-yellow: $complementary-yellow,
+      complementary-orange: $complementary-orange,
+      complementary-magenta: $complementary-magenta,
+      complementary-purple: $complementary-purple,
+      complementary-blue: $complementary-blue,
+      complementary-gray: $complementary-gray,
+      neutrals-gray-10: $neutrals-gray-10,
+      neutrals-gray-50: $neutrals-gray-50,
+      neutrals-gray-80: $neutrals-gray-80,
+      neutrals-gray-90: $neutrals-gray-90,
+      neutrals-gray-100: $neutrals-gray-100,
+      semantic-success-10: $semantic-success-10,
+      semantic-success-20: $semantic-success-20,
+      semantic-success-30: $semantic-success-30,
+      semantic-success-40: $semantic-success-40,
+      semantic-success-50: $semantic-success-50,
+      semantic-success-60: $semantic-success-60,
+      semantic-success-70: $semantic-success-70,
+      semantic-success-80: $semantic-success-80,
+      semantic-success-90: $semantic-success-90,
+      semantic-success-100: $semantic-success-100,
+      semantic-warning-10: $semantic-warning-10,
+      semantic-warning-20: $semantic-warning-20,
+      semantic-warning-30: $semantic-warning-30,
+      semantic-warning-40: $semantic-warning-40,
+      semantic-warning-50: $semantic-warning-50,
+      semantic-warning-60: $semantic-warning-60,
+      semantic-warning-70: $semantic-warning-70,
+      semantic-warning-80: $semantic-warning-80,
+      semantic-warning-90: $semantic-warning-90,
+      semantic-warning-100: $semantic-warning-100,
+      semantic-info-10: $semantic-info-10,
+      semantic-info-20: $semantic-info-20,
+      semantic-info-30: $semantic-info-30,
+      semantic-info-40: $semantic-info-40,
+      semantic-info-50: $semantic-info-50,
+      semantic-info-60: $semantic-info-60,
+      semantic-info-70: $semantic-info-70,
+      semantic-info-80: $semantic-info-80,
+      semantic-info-90: $semantic-info-90,
+      semantic-info-100: $semantic-info-100,
+      semantic-error-10: $semantic-error-10,
+      semantic-error-20: $semantic-error-20,
+      semantic-error-30: $semantic-error-30,
+      semantic-error-40: $semantic-error-40,
+      semantic-error-60: $semantic-error-60,
+      semantic-error-70: $semantic-error-70,
+      semantic-error-80: $semantic-error-80,
+      semantic-error-90: $semantic-error-90,
+      semantic-error-100: $semantic-error-100,
     ),
   )
 );
