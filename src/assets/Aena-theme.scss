@@ -3,8 +3,6 @@
 
 @include mat-core();
 
-//>------PRIMARY-COLORS------<
-
 $aena-primary: (
   50: #f2f9e0,
   100: #e0f0b3,
@@ -37,83 +35,80 @@ $aena-primary: (
     A700: #000000,
   ),
 );
-
-// $aena-accent-color: (
-//   50: #fff7ea,
-//   100: #ffeccb,
-//   200: #ffdfa8,
-//   300: #fed285,
-//   400: #fec86b,
-//   500: #febe51,
-//   600: #feb84a,
-//   700: #feaf40,
-//   800: #fea737,
-//   900: #fd9927,
-//   A100: #ffffff,
-//   A200: #ffffff,
-//   A400: #ffe9d3,
-//   A700: #ffddb9,
-//   contrast: (
-//     50: #000000,
-//     100: #000000,
-//     200: #000000,
-//     300: #000000,
-//     400: #000000,
-//     500: #000000,
-//     600: #000000,
-//     700: #000000,
-//     800: #000000,
-//     900: #000000,
-//     A100: #000000,
-//     A200: #000000,
-//     A400: #000000,
-//     A700: #000000,
-//   ),
-// );
-
-// $aena-warn-color: (
-//   50: #f9e0e0,
-//   100: #f0b3b3,
-//   200: #e68080,
-//   300: #db4d4d,
-//   400: #d42626,
-//   500: #cc0000,
-//   600: #c70000,
-//   700: #c00000,
-//   800: #b90000,
-//   900: #ad0000,
-//   A100: #ffd7d7,
-//   A200: #ffa4a4,
-//   A400: #ff7171,
-//   A700: #ff5858,
-//   contrast: (
-//     50: #000000,
-//     100: #000000,
-//     200: #000000,
-//     300: #ffffff,
-//     400: #ffffff,
-//     500: #ffffff,
-//     600: #ffffff,
-//     700: #ffffff,
-//     800: #ffffff,
-//     900: #ffffff,
-//     A100: #000000,
-//     A200: #000000,
-//     A400: #000000,
-//     A700: #000000,
-//   ),
-// );
-
- $aena-palette-primary: mat-palette($aena-primary);
-// $aena-palette-accent: mat-palette($aena-accent-color);
-// $aena-palette-warn: mat-palette($aena-warn-color);
+$aena-accent-color: (
+  50: #fff7ea,
+  100: #ffeccb,
+  200: #ffdfa8,
+  300: #fed285,
+  400: #fec86b,
+  500: #febe51,
+  600: #feb84a,
+  700: #feaf40,
+  800: #fea737,
+  900: #fd9927,
+  A100: #ffffff,
+  A200: #ffffff,
+  A400: #ffe9d3,
+  A700: #ffddb9,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #000000,
+    500: #000000,
+    600: #000000,
+    700: #000000,
+    800: #000000,
+    900: #000000,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000,
+  ),
+);
+$aena-warn-color: (
+  50: #f9e0e0,
+  100: #f0b3b3,
+  200: #e68080,
+  300: #db4d4d,
+  400: #d42626,
+  500: #cc0000,
+  600: #c70000,
+  700: #c00000,
+  800: #b90000,
+  900: #ad0000,
+  A100: #ffd7d7,
+  A200: #ffa4a4,
+  A400: #ff7171,
+  A700: #ff5858,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #ffffff,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000,
+  ),
+);
+$aena-palette-primary: mat-palette($aena-primary);
+$aena-palette-accent: mat-palette($aena-accent-color);
+$aena-palette-warn: mat-palette($aena-warn-color);
 
 $aena-theme: mat-light-theme(
   (
     color: (
       primary: $aena-palette-primary,
-      // accent: $aena-palette-accent,
-      // warn: $aena-palette-warn,
+      accent: $aena-palette-accent,
+      warn: $aena-palette-warn,
     ),
   )
 );
